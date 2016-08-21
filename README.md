@@ -46,7 +46,8 @@ Just wire up the basics and get @Rasathus's code working.
 
 <sup>3</sup> Note that the Pi to Fused Power (+5v) is marked out.  This should work but didn't.  I'm powering the Pi via USB for now.
 
-![Wiring Diagram](wiring/phase1.png)
+![Wiring Diagram](diagrams/phase1.png)
+The [Fritzing](http://fritzing.org) file is in the `diagrams` folder.
 
 ## Code
 1. Install Dependencies (from some other directory)
