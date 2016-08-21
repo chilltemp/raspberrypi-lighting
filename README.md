@@ -27,23 +27,24 @@ Just wire up the basics and get @Rasathus's code working.
 * The black component on the right is the power connector
 
 ### Connections
+#### Power
 * +5v PWR —> lower red rail
 * +5v PWR -> fuse
 * fuse -> upper red rail
 * ground -> lower blue rail
 * lower blue rail -> upper blue rail
 
-
+#### Pi
 * Pi 23 - SLCK —> LED 4 green - serial clock
 * Pi 19 - MOSI —> LED 3 yellow - serial data
-* ~~Pi 02 - 5v —> fused power (upper red rail)~~ 
+* ~~Pi 02 - 5v —> fused power (upper red rail)~~<sup>3</sup> 
 * Pi 06 - GND —> GND
 
-
+#### LED
 * LED 1 red -> unfused power (lower red rail)
 * LED 2 blue -> ground (either blue rail)
 
-Note that the Pi to Fused Power (+5v) is marked out.  This should work but didn't.  I'm powering the Pi via USB for now.
+<sup>3</sup> Note that the Pi to Fused Power (+5v) is marked out.  This should work but didn't.  I'm powering the Pi via USB for now.
 
 ![Wiring Diagram](wiring/phase1.png)
 
